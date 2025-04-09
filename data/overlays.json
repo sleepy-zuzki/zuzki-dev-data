@@ -7,12 +7,26 @@
         "owner": {
             "id": "owner1",
             "name": "Owner 1",
-            "avatar": "https://example.com/owner1-avatar.jpg"
+            "email": "email@email.com",
+            "socials": [
+                {
+                    "id": "twitter",
+                    "name": "Twitter",
+                    "url": "https://twitter.com/owner1"
+                }
+            ]
         },
         "creator": {
             "id": "creator1",
             "name": "Creator 1",
-            "avatar": "https://example.com/creator1-avatar.jpg"
+            "email": "email@email.com",
+            "socials": [
+                {
+                    "id": "twitter",
+                    "name": "Twitter",
+                    "url": "https://twitter.com/creator1"
+                }
+            ]
         },
         "tecnologies": [
             {
@@ -42,61 +56,5 @@
                 "source": "https://example.com/layout1-source.jpg"
             }
         ]
-    },
-    {
-        "id": "overlay2",
-        "name": "Overlay 2",
-        "status": "inactive",
-        "preview": "https://example.com/overlay2-preview.jpg",
-        "owner": {
-            "id": "owner2",
-            "name": "Owner 2",
-            "avatar": "https://example.com/owner2-avatar.jpg"
-        },
-        "creator": {
-            "id": "creator2",
-            "name": "Creator 2",
-            "avatar": "https://example.com/creator2-avatar.jpg"
-        },
-        "tecnologies": [
-            {
-                "id": "tech3",
-                "name": "Technology 3",
-                "color": "#33FF57"
-            }
-        ],
-        "layouts": [
-            {
-                "id": "layout3",
-                "name": "Layout 3",
-                "status": "inactive",
-                "preview": "https://example.com/layout3-preview.jpg",
-                "source": null
-            }
-        ]
-    },
-    {
-        "id": "overlay3",
-        "name": "Overlay 3",
-        "status": "active",
-        "preview": "https://example.com/overlay3-preview.jpg",
-        "owner": {
-            "id": "owner3",
-            "name": "Owner 3",
-            "avatar": "https://example.com/owner3-avatar.jpg"
-        },
-        "creator": {
-            "id": "creator3",
-            "name": "Creator 3",
-            "avatar": "https://example.com/creator3-avatar.jpg"
-        },
-        "tecnologies": [
-            {
-                "id": "tech4",
-                "name": "Technology 4",
-                "color": "#3357FF"
-            }
-        ],
-        "layouts": []
     }
 ]
